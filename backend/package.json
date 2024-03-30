@@ -9,8 +9,8 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
   "dependencies": {
+    "@strapi-community/strapi-provider-upload-google-cloud-storage": "^4.10.5",
     "@strapi/plugin-cloud": "4.20.4",
     "@strapi/plugin-i18n": "4.20.4",
     "@strapi/plugin-seo": "^1.9.8",
@@ -20,7 +20,8 @@
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "5.3.4",
-    "styled-components": "5.3.3"
+    "styled-components": "5.3.3",
+    "yarn": "^1.22.22"
   },
   "author": {
     "name": "A Strapi developer"
